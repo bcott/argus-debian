@@ -2,10 +2,7 @@ pkg/argus.conf /etc/
 pkg/ubuntu/init.d/argus /etc/init.d/
 pkg/ubuntu/default/argus /etc/default/
 
-bin/argus usr/sbin/
-bin/argusbug usr/bin/
-bin/argus-lsof usr/bin/
-bin/argus-snmp usr/bin/
-bin/argus-vmstat usr/bin/
-man/ usr/share/man/
+debian/tmp/usr/bin/ usr/
+debian/tmp/usr/sbin/ usr/
+
 support/  usr/share/doc/argus
